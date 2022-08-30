@@ -1,0 +1,16 @@
+.filter {
+  width: 20vw;
+  height: auto;
+  margin: 10px;
+  border: 1px solid #532a21;
+  border-radius: 5px;
+  color: #532a21;
+  font-weight: 200;
+}
+h4 {
+  text-align: center;
+}
+.filter li img {
+  margin: 10px;
+  width: 15px;
+}
