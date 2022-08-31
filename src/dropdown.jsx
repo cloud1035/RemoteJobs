@@ -39,8 +39,8 @@ export default function DropDown() {
         </div>
         {isPost && (
           <div className="dropdown-content">
-            <div className="dropdown-item">Why Remotive</div>
-            <div className="dropdown-item">Jop posting guidelines</div>
+            <div className="dropdown-item">Why Remotive?</div>
+            <div className="dropdown-item">Job posting guidelines</div>
             <div className="dropdown-item">Job listing templates</div>
             <button className="dropdown-item">FAQ</button>
           </div>
