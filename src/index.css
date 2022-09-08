@@ -18,7 +18,11 @@ h5 {
   display: flex;
 }
 .main-content {
+  margin: 10px;
   width: 100%;
+}
+.flex {
+  display: flex;
 }
 li {
   list-style-type: none;
@@ -202,7 +206,19 @@ li {
   position: absolute;
   border-radius: 5px;
 }
-
+.dropdown-content a {
+  text-decoration: none;
+  color: #532a21;
+}
+.pagination {
+  --bs-pagination-color: #532a21;
+  --bs-pagination-active-border-color: var(--bs-pagination-color);
+  --bs-pagination-active-bg: var(--bs-pagination-color);
+  justify-content: center;
+  --bs-pagination-active-color: #ffdcab;
+  --bs-pagination-disabled-border-color: #909090;
+  --bs-pagination-border-radius: 5px;
+}
 @media only screen and (max-width: 600px) {
   .row {
     flex-direction: column;

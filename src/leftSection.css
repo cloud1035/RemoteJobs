@@ -1,6 +1,6 @@
 .filter {
   width: 20vw;
-  height: auto;
+  height: fit-content;
   margin: 10px;
   border: 1px solid #532a21;
   border-radius: 5px;
