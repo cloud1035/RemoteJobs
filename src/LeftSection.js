@@ -3,7 +3,6 @@ import image from "./world-globe.png";
 import USA from "./usa.png";
 import { useState } from "react";
 export default function (props) {
-  var checkboxArray = [];
   const [checked, setChecked] = useState([]);
   function onCheckedValue(e) {
     //console.log(e.target.value);
